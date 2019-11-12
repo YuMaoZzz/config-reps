@@ -17,7 +17,7 @@ spring:
     hikari:
       minimum-idle: 0
   redis:
-    host: 192.168.10.222
+    host: 192.168.43.70
     port: 6379
     password: 123456
     timeout: 10000
@@ -28,7 +28,7 @@ spring:
         max-active: 30
         max-wait: 10000
   rabbitmq:
-    host: 192.168.10.222
+    host: 192.168.43.70
     port: 5672
     username: admin
     password: 123456
